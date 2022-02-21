@@ -1,0 +1,34 @@
+body{
+    background: rgba(245, 245, 245, 1);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.caja h1{
+    position: static;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    right: 0px;
+}
+
+.caja p{
+    position: static;
+    width: 102px;
+    height: 19px;
+    left: 32px;
+    top: 2.5px;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
