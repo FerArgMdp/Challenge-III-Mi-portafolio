@@ -1,34 +1,10 @@
 body{
-    background: rgba(245, 245, 245, 1);
-}
-
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 32px 0;
-}
-
-.caja h1{
-    position: static;
-    width: 24px;
-    height: 24px;
+    height: 5020px;
+    width: 1440px;
     left: 0px;
-    right: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background: rgba(245, 245, 245, 1);
+    font-family: 'Gothic A1', sans-serif;
 }
 
-.caja p{
-    position: static;
-    width: 102px;
-    height: 19px;
-    left: 32px;
-    top: 2.5px;
-}
-
-li{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-}
