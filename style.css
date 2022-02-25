@@ -8,3 +8,75 @@ body{
     font-family: 'Gothic A1', sans-serif;
 }
 
+.header-principal{
+    margin: 0 auto;
+    padding: 20px 0;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.headerprincipal-menu{
+    width: 94%;
+	margin: 0 auto;
+}
+
+.headerprincipal-logo-nombre{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-principal .headerprincipal-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerprincipal-nav{
+    display: flex;
+}
+
+.headerPrincipal-nav-link {
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+}
+
+.contenido-principal{
+    width: 94%;
+    margin: 5em auto;
+}
+
+.acerca-de-mi{
+    height: 368px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentacion-personal-titulo{
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 61px;
+    line-height: 100%;
+    vertical-align: top;
+}
+
+.presentacion-personal-carrera{
+    font-size: 22px;
+    line-height: 26px;
+    line-height: 100%;
+    vertical-align: top;
+}
+
+.presetacion-personal-nav{
+    display: flex;
+    text-decoration: none;
+}
+
+.presentacion-personal-nav-link{
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+    vertical-align: top;
+}
