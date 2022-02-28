@@ -1,8 +1,7 @@
 body{
     height: 5020px;
-    width: 1440px;
-    left: 0px;
-    top: 0px;
+    width: 1240px;
+    margin: auto;
     border-radius: 0px;
     background: rgba(245, 245, 245, 1);
     font-family: 'Gothic A1', sans-serif;
@@ -21,7 +20,7 @@ body{
 }
 
 .headerprincipal-logo-nombre{
-    width: 15%;
+    width: 16%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,19 +38,23 @@ body{
 
 .headerPrincipal-nav-link {
 	padding: 10px;
+    color: black;
 	text-decoration: none;
 	display: block;
 }
 
 .contenido-principal{
+    display: flex;
     width: 94%;
     margin: 5em auto;
 }
 
 .acerca-de-mi{
-    height: 368px;
     display: flex;
-    justify-content: space-between;
+    height: 250px;
+    width: 600%;
+    flex-direction: column;
+    justify-content: space-around;    
 }
 
 .presentacion-personal-titulo{
@@ -69,14 +72,95 @@ body{
     vertical-align: top;
 }
 
+.imagen-rostro{
+    display: flex;
+    width: 90%;
+    margin-left: 25px;
+}
+
 .presetacion-personal-nav{
     display: flex;
+    width: 60%;
     text-decoration: none;
+    justify-content: space-between;
 }
 
 .presentacion-personal-nav-link{
     font-size: 16px;
+    color: black;
     line-height: 19px;
     line-height: 100%;
     vertical-align: top;
+    text-decoration: none;
+}
+
+.pasatiempos-y-habiilidades-blandas{
+    display: block;
+    position: absolute;
+    top: 520px;
+    width: 1240px;
+    height: 383px;
+    margin: 0 auto;
+}
+
+.sobre-mi-titulo{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 38px;
+    line-height: 100%;
+}
+
+.sobre-mi{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.firma{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+.formaciones-y-cursos{
+    display: block;
+    position: absolute;
+    top: 800px;
+    width: 1240px;
+    height: 383px;
+    margin: 0 auto;
+}
+
+.skills-titulo{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 38px;
+    line-height: 100%;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.hobbies-titulo{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 38px;
+    line-height: 100%;
+    margin-top: 3em;
+}
+
+.hobbies{
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.imagen-hobbie{
+    height: 100px;
+    width: 100px;
 }
