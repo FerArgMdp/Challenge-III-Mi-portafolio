@@ -3,8 +3,8 @@ body{
     width: 1240px;
     margin: auto;
     border-radius: 0px;
-    background: rgba(245, 245, 245, 1);
-    font-family: 'Gothic A1', sans-serif;
+    background: #eaf2fd;
+    font-family: sans-serif;
 }
 
 .header-principal{
@@ -99,7 +99,7 @@ body{
     position: absolute;
     top: 520px;
     width: 1240px;
-    height: 383px;
+    height: 250px;
     margin: 0 auto;
 }
 
@@ -115,7 +115,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: auto;
+    width: 94%;
 }
 
 .firma{
@@ -128,7 +128,7 @@ body{
     position: absolute;
     top: 800px;
     width: 1240px;
-    height: 383px;
+    height: 300px;
     margin: 0 auto;
 }
 
@@ -141,8 +141,12 @@ body{
 
 .skills{
     display: flex;
-    justify-content: space-around;
+    width: 94%;
     margin-top: 2em;
+}
+
+.imagen-skills{
+    margin-right: 2em;
 }
 
 .hobbies-titulo{
@@ -155,7 +159,8 @@ body{
 
 .hobbies{
     display: flex;
-    height: 400px;
+    width: 94%;
+    height: 250px;
     justify-content: space-between;
     margin-top: 2em;
 }
