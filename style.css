@@ -219,3 +219,58 @@ body{
     margin-top: 1.03em;
 }
 
+.experiencia-en-programacion{
+    display: flex;
+}
+.experiencia__titulo{
+    position: absolute;
+    left: 90px;
+    top: 1850px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 38px;
+    line-height: 100%;
+}
+
+.experiencia__contenido{
+    display: flex;
+}
+
+.imagen__encriptador{
+    position: absolute;
+    top: 1950px;
+    left: 90px;
+    height: 406px;
+    width: 950px;
+    border-radius: 5px;
+
+}
+
+.botones__encriptador{
+    position: absolute;
+    top: 2100px;
+    left: 1050px;
+}
+
+.imagen_encriptador--titulo{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.imagen_encriptador--subtitulo{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    padding: 0.5rem 0 0.75rem 0;
+}
+
+.boton__encriptador{
+    background-color: black;
+    color: beige;
+    border-radius: 5px;
+    height: 2rem;
+    width: 8rem;
+    margin-right: 1rem;
+}
+
