@@ -1,0 +1,16 @@
+.hobbies{
+    padding: 2rem 0;
+}
+
+.imagen-hobbie{
+    height: 100px;
+    padding: 2rem 8rem 0 0;
+    width: 100px;
+}
+
+.hobbies__titulo{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 38px;
+    line-height: 100%;
+}

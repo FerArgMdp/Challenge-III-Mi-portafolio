@@ -1,0 +1,9 @@
+.contacto__imagen{
+    border: 0.5px solid;
+    border-radius: 5px;
+    box-shadow: -8px 8px 8px 0 rgba(0, 0, 0, 0.35);
+    height: 39rem;
+    width: 32rem;
+}
+
+

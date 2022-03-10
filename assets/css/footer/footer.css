@@ -1,0 +1,19 @@
+.footer{
+    margin: 0;
+    background-color: black
+}
+
+.footer__contenido{
+    padding: 1.5rem;
+}
+
+.footer_texto{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: beige;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}

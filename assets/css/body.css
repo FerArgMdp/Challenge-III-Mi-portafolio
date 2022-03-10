@@ -1,0 +1,6 @@
+.body{
+    background-attachment: fixed;
+    background-image: url(../imagenes/background.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

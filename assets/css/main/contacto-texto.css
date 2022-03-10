@@ -1,0 +1,54 @@
+.contacto__contenido--texto{
+    padding-left:5%;
+    width: 60%;
+}
+
+.contacto__titulo{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 38px;
+    line-height: 100%;
+}
+
+.contacto__subtitulo{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+
+}
+
+.input-padron{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    resize: none;
+    width: 80%;
+}
+
+.formulario__enviar{
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.35);
+    color: beige;
+    cursor: pointer;
+    height: 2rem;
+    margin-top: 1rem;
+    transition: 1s all;
+    width: 10rem;
+}
+
+.formulario__enviar:hover{
+    background: rgb(31, 28, 28);
+    transform: scale(1.1);
+}
+
+.formulario__label{
+    margin-top: 1rem;
+}

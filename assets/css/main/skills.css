@@ -1,0 +1,15 @@
+.skills{
+    padding: 2rem 0;
+}
+
+.skills__imagen{
+    border-radius: 10px;
+    padding: 2rem 5rem 0 0;
+}
+
+.skills__titulo{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 38px;
+    line-height: 100%;
+}

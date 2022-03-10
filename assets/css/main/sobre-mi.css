@@ -1,0 +1,22 @@
+.sobreMi{
+    padding: 2rem 0;
+}
+
+.sobreMi__firma{
+    font-family:'Licorice', cursive;
+    font-size: 30px;
+    padding-top: 1rem;
+    font-weight: bold;
+    text-decoration: dashed;
+}
+
+.sobreMi__descripcion{
+    padding-top: 1rem;
+}
+
+.sobreMi__titulo{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 38px;
+    line-height: 100%;
+}

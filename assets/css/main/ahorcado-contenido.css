@@ -1,0 +1,47 @@
+.ahorcado__contenido{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 5rem 0 0 0;
+}
+
+.ahorcado__contenido--texto{
+    padding: 20% 0;
+}
+
+.imagen__ahorcado{
+    border: 0.5px solid;
+    border-radius: 10px;
+    box-shadow: -8px 8px 8px 0 rgba(0, 0, 0, 0.35);
+}
+
+.imagen__ahorcado--titulo{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.imagen__ahorcado--subtitulo{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    padding: 0.5rem 0 0.75rem 0;
+}
+
+.boton__ahorcado{
+    background-color: black;
+    color: beige;
+    border-radius: 5px;
+    height: 2rem;
+    width: 8rem;
+    margin-right: 1rem;
+    border: none;
+    box-shadow: -4px 4px 8px 0 rgba(0, 0, 0, 0.35);
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.boton__ahorcado:hover{
+    background: rgb(31, 28, 28);
+    transform: scale(1.1);
+}
