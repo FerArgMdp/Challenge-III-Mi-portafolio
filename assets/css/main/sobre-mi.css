@@ -20,3 +20,16 @@
     line-height: 38px;
     line-height: 100%;
 }
+
+@media screen and (max-width:375px) {
+    .sobreMi{
+        padding: 1rem 0;
+    }
+    .sobreMi__titulo{
+        width: 60%;
+        padding-left: 20%;
+        padding-right: 20%;
+        text-align: center;
+    }
+    
+}

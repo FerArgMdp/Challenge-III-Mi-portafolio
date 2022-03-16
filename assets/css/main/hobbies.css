@@ -14,3 +14,21 @@
     line-height: 38px;
     line-height: 100%;
 }
+
+@media screen and (max-width:375px) {
+    .hobbies{
+        padding: 1.3rem 0;
+    }
+    .imagen-hobbie{
+        border-radius: 10px;
+        width: 30%;
+        padding-left: 35%;
+        padding-right: 35%;
+    }
+    .hobbies__titulo{
+        width: 60%;
+        padding-left: 20%;
+        padding-right: 20%;
+        text-align: center;
+    }
+}
