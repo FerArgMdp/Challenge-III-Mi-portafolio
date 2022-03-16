@@ -3,3 +3,19 @@
     display: flex;
     justify-content: space-between;
 }
+
+.encabezado__presentacion--textos{
+    width: 70%;
+}
+
+@media  screen and (max-width:375px) {
+    .encabezado__presentacion{
+        display: flex;
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+    .encabezado__presentacion--textos{
+        width: 100%;
+    }
+    
+}

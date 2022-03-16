@@ -4,3 +4,13 @@
     line-height: 61px;
     line-height: 100%;
 }
+
+@media  screen and (max-width:375px) {
+    .presentacion__texto--titulo{
+        font-size: x-large;
+        width: 80vw;
+        padding: .5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+}

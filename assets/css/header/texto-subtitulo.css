@@ -5,3 +5,14 @@
     line-height: 100%;
     padding: 3rem 0;
 }
+
+
+@media  screen and (max-width:375px) {
+    .presentacion__texto--subtitulo{
+        font-size: large;
+        width: 80vw;
+        padding: .5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+}

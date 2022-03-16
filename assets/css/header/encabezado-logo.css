@@ -3,3 +3,10 @@
     height: 24px;
     width: 24px;
 }
+
+@media  screen and (max-width:375px) {
+    .encabezado__logo{
+        display: none
+    }
+    
+}

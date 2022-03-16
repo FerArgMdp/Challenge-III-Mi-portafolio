@@ -1,0 +1,8 @@
+@media  screen and (max-width:375px) {
+    .encabezado__menu{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}

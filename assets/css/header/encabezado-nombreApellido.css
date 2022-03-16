@@ -3,3 +3,13 @@
     font-weight: bold;
     margin-left: 1rem;
 }
+
+@media  screen and (max-width:375px) {
+    .encabezado__nombreApellido{
+        font-size: xx-large;
+        text-align: center;
+        text-decoration: underline;
+
+    }
+    
+}

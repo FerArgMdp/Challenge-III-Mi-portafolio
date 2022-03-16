@@ -8,3 +8,13 @@
     padding-left: 7rem;
     width: 210px;
 }
+
+@media screen and (max-width:375px) {
+    .encabezado__presentacion--imagen{
+        width: 100%;
+    }
+    .presentacion_imagen--rostro{
+        padding: 1rem 3.5rem;
+    }
+    
+}
