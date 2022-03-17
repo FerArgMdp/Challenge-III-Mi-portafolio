@@ -5,3 +5,15 @@
 .formacionAcademica__contenido{
     display: flex;
 }
+
+@media screen and (max-width:375px){
+    .formacion__academica{
+        display: flex;
+        flex-direction: column;
+    }
+    .formacionAcademica__contenido{
+        flex-direction: column;
+    }
+    
+}
+

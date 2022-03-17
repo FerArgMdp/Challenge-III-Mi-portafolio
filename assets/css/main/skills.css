@@ -19,12 +19,13 @@
         padding: 1.3rem 0;
     }
     .skills__imagen{
-        border-radius: 10px;
+        border-radius: 20px;
         width: 60%;
         padding-left: 20%;
         padding-right: 20%;
     }
     .skills__titulo{
+        text-shadow: 2px 2px 2px gray;
         width: 60%;
         padding-left: 20%;
         padding-right: 20%;

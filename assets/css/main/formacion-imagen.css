@@ -3,3 +3,11 @@
     width: 200;
     border-radius: 100%;
 }
+
+@media screen and (max-width:375px) {
+    .establecimientos__imagen{
+        width: 70%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}

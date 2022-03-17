@@ -45,3 +45,30 @@
     transform: scale(1.1);
 }
 
+@media screen and (max-width:375px) {
+    .encriptador__contenido{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagen__encriptador{
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .imagen__encriptador--titulo{
+        width: 70%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .imagen__encriptador--subtitulo{
+        width: 70%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .boton__encriptador{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+

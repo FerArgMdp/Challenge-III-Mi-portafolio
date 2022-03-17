@@ -52,3 +52,35 @@
 .formulario__label{
     margin-top: 1rem;
 }
+
+@media screen and (max-width:375px) {
+    .contacto__contenido--texto{
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .contacto__titulo{
+        text-shadow: 2px 2px 2px gray;
+        width: 50%;
+        padding-left: 25%;
+        padding-right: 25%;
+        text-align: center;
+    }
+    .contacto__subtitulo{
+        width: 100%;
+        margin-top: 1rem;
+        padding-left: 0%;
+        padding-right: 0%;
+        text-align: center;
+    }
+    .formulario{
+        width: 100%;
+    }
+    .input-padron{
+        width: 89%;
+    }
+
+    .formulario__enviar{
+        margin: 1rem 25%;
+    }
+}

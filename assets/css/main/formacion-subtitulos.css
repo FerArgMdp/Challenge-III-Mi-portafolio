@@ -7,3 +7,16 @@
 .establecimientos__subtituloDos{
     margin-top: 0.5rem;
 }
+
+@media screen and (max-width:375px) {
+    .establecimientos__subtituloUno{
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .establecimientos__subtituloDos{
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}

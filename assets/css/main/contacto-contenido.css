@@ -2,3 +2,11 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width:375px) {
+    .contacto__contenido{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    
+}

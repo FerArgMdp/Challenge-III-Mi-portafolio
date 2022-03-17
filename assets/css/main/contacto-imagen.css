@@ -6,4 +6,14 @@
     width: 32rem;
 }
 
+@media screen and (max-width:375px) {
+    .contacto__imagen{
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+        height: min-content;
+    }
+}
+
+
 

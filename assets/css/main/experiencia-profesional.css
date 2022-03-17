@@ -1,3 +1,10 @@
 .experiencia__profesional{
     padding: 2rem 0;
 }
+
+@media screen and (max-width:375px){
+    .experiencia__profesional{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -6,9 +6,11 @@
 
 @media  screen and (max-width:375px) {
     .encabezado__nombreApellido{
+        margin: 1rem auto;
         font-size: xx-large;
         text-align: center;
         text-decoration: underline;
+        text-shadow: 2px 2px 2px gray;
 
     }
     

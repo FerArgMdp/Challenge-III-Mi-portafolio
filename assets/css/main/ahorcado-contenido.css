@@ -45,3 +45,34 @@
     background: rgb(31, 28, 28);
     transform: scale(1.1);
 }
+
+@media screen and (max-width:375px) {
+    .ahorcado__contenido{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0 0 0
+    }
+    .ahorcado__contenido--texto{
+        padding: 2rem 0 0 0
+    }
+    .imagen__ahorcado{
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .imagen__ahorcado--titulo{
+        width: 60%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .imagen__ahorcado--subtitulo{
+        width: 60%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .boton__ahorcado{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}

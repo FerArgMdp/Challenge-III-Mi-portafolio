@@ -1,3 +1,12 @@
 .contacto{
     padding: 2rem 0;
 }
+
+@media screen and (max-width:375px) {
+    .contacto{
+        display: flex;
+        flex-direction:column;
+        padding: 1rem 0;
+    }
+    
+}
