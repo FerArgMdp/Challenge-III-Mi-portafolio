@@ -21,7 +21,7 @@
     line-height: 100%;
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:425px) {
     .sobreMi{
         padding: 1rem 0;
     }
@@ -30,6 +30,12 @@
         width: 60%;
         padding-left: 20%;
         padding-right: 20%;
+        text-align: center;
+    }
+    .sobreMi__descripcion{
+        text-align: center;
+    }
+    .sobreMi__firma{
         text-align: center;
     }
     

@@ -4,7 +4,7 @@
     margin-left: 1rem;
 }
 
-@media  screen and (max-width:375px) {
+@media  screen and (max-width:425px) {
     .encabezado__nombreApellido{
         margin: 1rem auto;
         font-size: xx-large;

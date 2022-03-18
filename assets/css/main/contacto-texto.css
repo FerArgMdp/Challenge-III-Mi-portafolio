@@ -53,7 +53,7 @@
     margin-top: 1rem;
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:425px) {
     .contacto__contenido--texto{
         width: 100%;
         padding-left: 0%;
@@ -82,5 +82,7 @@
 
     .formulario__enviar{
         margin: 1rem 25%;
+        width: 50%;
+        padding: 0%;
     }
 }

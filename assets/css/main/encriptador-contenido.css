@@ -45,7 +45,9 @@
     transform: scale(1.1);
 }
 
-@media screen and (max-width:375px) {
+
+
+@media screen and (max-width:425px) {
     .encriptador__contenido{
         display: flex;
         flex-direction: column;
@@ -59,11 +61,13 @@
         width: 70%;
         padding-left: 15%;
         padding-right: 15%;
+        text-align: center;
     }
     .imagen__encriptador--subtitulo{
         width: 70%;
         padding-left: 15%;
         padding-right: 15%;
+        text-align: center;
     }
     .boton__encriptador{
         width: 50%;

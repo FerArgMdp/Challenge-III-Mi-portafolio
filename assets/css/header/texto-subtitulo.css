@@ -7,12 +7,13 @@
 }
 
 
-@media  screen and (max-width:375px) {
+@media  screen and (max-width:425px) {
     .presentacion__texto--subtitulo{
         font-size: large;
-        width: 80vw;
-        padding: .5rem;
+        width: 100%;
+        padding: .5rem 0%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
     }
     
 }

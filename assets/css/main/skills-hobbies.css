@@ -4,7 +4,7 @@
 }
 
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:425px) {
     .skills__hobbies{
         display: flex;
         flex-direction: column;

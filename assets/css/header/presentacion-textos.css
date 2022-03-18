@@ -1,4 +1,4 @@
-@media  screen and (max-width:375px) {
+@media  screen and (max-width:425px) {
     .presentacion__texto--redes{
         display: flex;
         flex-direction: column;

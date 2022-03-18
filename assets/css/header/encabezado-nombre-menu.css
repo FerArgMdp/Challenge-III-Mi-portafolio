@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-@media  screen and (max-width:375px) {
+@media  screen and (max-width:425px) {
     .encabezado__nombre-menu{
         display: flex;
         flex-direction: column;

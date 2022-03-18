@@ -3,7 +3,7 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:425px) {
     .contacto__contenido{
         display: flex;
         flex-direction:column-reverse;

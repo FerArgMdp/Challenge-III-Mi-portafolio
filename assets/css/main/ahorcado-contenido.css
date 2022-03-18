@@ -46,7 +46,7 @@
     transform: scale(1.1);
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:425px) {
     .ahorcado__contenido{
         display: flex;
         flex-direction: column;
@@ -64,11 +64,13 @@
         width: 60%;
         padding-left: 20%;
         padding-right: 20%;
+        text-align: center;
     }
     .imagen__ahorcado--subtitulo{
         width: 60%;
         padding-left: 20%;
         padding-right: 20%;
+        text-align: center;
     }
     .boton__ahorcado{
         width: 50%;

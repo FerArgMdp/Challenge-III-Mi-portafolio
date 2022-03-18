@@ -6,7 +6,7 @@
     display: flex;
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:425px){
     .formacion__academica{
         display: flex;
         flex-direction: column;
