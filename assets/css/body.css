@@ -7,7 +7,7 @@
 
 @media  screen and (max-width:425px) {
     .body{
-        background-image: url(../imagenes/background.jpg);
+        background-size: cover;
         width: 100vw;
         height: 100vw;
         margin: 0%;
